@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-with{
     width: 50%;
@@ -29,8 +30,14 @@ a{
     font-weight: 700;
     background-color: orange;
     background-image:linear-gradient(orange,tomato);
+    border-radius: 5px;
 }
 .top-banar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
