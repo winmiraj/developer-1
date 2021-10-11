@@ -8,12 +8,12 @@ h1{
 .orange_color{
     color: orange;
 }
-section{
+.flexible_container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-with{
-    width: 50%;
+    width: 45%;
     padding-left: 5%;
 }
 .half-with img{
@@ -22,9 +22,10 @@ section{
 a{
     text-decoration: none;
 }
+.paragraph{
+    padding-right: 130px;
+}
 .link-button{
-    width: 300px;
-    height: 300px;
     padding: 10px 40px;
     color: white;
     font-weight: 700;
